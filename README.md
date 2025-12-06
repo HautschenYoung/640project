@@ -24,10 +24,10 @@ git submodule update --init --recursive
 3. Install DUSt3R dependencies and make the submodule available to Python
 ```bash
 # install dependencies used by dust3r (see dust3r/requirements.txt for exact list)
-pip install -r pj/dust3r/requirements.txt
+pip install -r dust3r/requirements.txt
 
 # install dust3r in editable mode so imports work and local updates are reflected
-pip install -e pj/dust3r
+pip install -e dust3r
 ```
 
 4. Verify import
