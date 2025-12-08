@@ -10,7 +10,7 @@ Project/
 │   └── sora2_*.mp4         <-- AI generated videos
 ├── preprocessed_frames/
 ├── results/                <-- stores the analysis results
-├── preprocess.py           <-- extract 20 consecutive frames for each videos in data/
+├── preprocess.py           <-- extract consecutive frames for each videos in data/
 └── detect_fake_video.py    <-- analyzing using frames in preprocessed_frames/
 ```
 
