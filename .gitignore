@@ -1,4 +1,4 @@
 preprocessed_frames/
-results/
-data/
+# results/
+# data/
 *_backup_*/
