@@ -55,7 +55,7 @@ wget https://download.europe.naverlabs.com/ComputerVision/DUSt3R/DUSt3R_ViTLarge
 ### 2. Preprocess the data
 
 dust3r requires image frames as input and does not accept video input directly. Therefore, use `preprocess.py` to extract frames from videos. `preprocess.py` can accept 3 arguments and takes videos in `data/` as input and outputs frames into individual folders in `preprocessed_frames/` per video. Zero argument also would work and the preprocessing would run in default arguments.
-* `--max_frames` argument indicates how many frames are to be extract. Defaultly set to 20.
+* `--max_frames` argument indicates how many frames are to be extracted. Defaultly set to 20.
 * `--sample_rate` argument indicates the frequency of frame extraction. Defaultly set to 2.
 * `-r` argument indicates whether to delete existing output and regenerate frames. If set, will delete existing output folder before processing.
 
